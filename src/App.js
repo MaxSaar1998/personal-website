@@ -1,14 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
-import Navbar from './navbar.js';
+import Navbar from './components/navbar.js';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
+import Home from './pages/home.js';
+import About from './pages/about.js';
+import Portfolio from './pages/portfolio.js';
+import Contact from './pages/contact.js';
 
 function App() {
   return (
-    <div className="App">
-      <header>
+    <Router>
+      <div className="App font-ssans3">
         <Navbar />
-      </header>
-    </div>
+        <Routes>
+          <Route path="/about" element={<About />} />
+          <Route path="/portfolio" element={<Portfolio />}/>
+          <Route path="/contact" element={<Contact />}/>
+          <Route path="/" element={<Home />}/>
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "SourceSans3Regular";
+  src: local("SourceSans3Regular"),
+      url("./fonts/SourceSans3/SourceSans3-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SourceSans3Bold";
+  src: local("SourceSans3Bold"),
+      url("./fonts/SourceSans3/SourceSans3-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
