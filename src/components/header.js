@@ -22,9 +22,6 @@ export default function Header() {
                     <li className="mb-2">
                         <AnimatedLink href="#projects" >Projects</AnimatedLink>
                     </li>
-                    <li className="mb-2">
-                        <AnimatedLink href="#contact" >Contact</AnimatedLink>
-                    </li>
                 </ul>
             </nav>
         </header>

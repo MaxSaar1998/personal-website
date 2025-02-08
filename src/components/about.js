@@ -6,7 +6,7 @@ const About = () => {
             flex flex-col items-start
             mb-8 scroll-mt-24
             ">
-            <h1 className="font-ssans3bold text-xl">About</h1>
+            <h1 className="font-ssans3bold text-3xl">About</h1>
             {/* TODO: add about paragraph*/}
             <p className="text-lg text-left mt-2">
                 Hello, I'm a web developer with a passion for creating user-friendly websites and apps.

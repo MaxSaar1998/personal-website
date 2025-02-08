@@ -3,7 +3,6 @@ import Header from './components/header.js';
 import About from './components/about.js';
 import Experience from './components/experience.js';
 import Projects from './components/projects.js';
-import Contact from './components/contact.js';
 
 function App() {
   return (
@@ -16,7 +15,6 @@ function App() {
             <About />
             <Experience />
             <Projects />
-            <Contact />
           </main>
         </div>
       </div>
