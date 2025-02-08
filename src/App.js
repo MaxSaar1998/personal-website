@@ -1,25 +1,26 @@
 import './App.css';
-import Navbar from './components/navbar.js';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-
-import Home from './pages/home.js';
-import About from './pages/about.js';
-import Portfolio from './pages/portfolio.js';
-import Contact from './pages/contact.js';
+import Header from './components/header.js';
+import About from './components/about.js';
+import Experience from './components/experience.js';
+import Projects from './components/projects.js';
+import Contact from './components/contact.js';
 
 function App() {
   return (
-    <Router>
-      <div className="App font-ssans3">
-        <Navbar />
-        <Routes>
-          <Route path="/about" element={<About />} />
-          <Route path="/portfolio" element={<Portfolio />}/>
-          <Route path="/contact" element={<Contact />}/>
-          <Route path="/" element={<Home />}/>
-        </Routes>
+      <div className="mx-auto min-h-screen max-w-screen-xl
+        px-6 py-12 md:px-12 md:py-16 lg:py-0">
+        <div className="App font-ssans3 lg:flex lg:justify-between lg:gap-4">
+          <Header />
+          {/* Body */}
+          <main id="content" className=" pt-12 lg:pt-24 lg:w-[55%] flex flex-col">
+            <About />
+            <Experience />
+            <Projects />
+            <Contact />
+          </main>
+        </div>
       </div>
-    </Router>
+
   );
 }
 
