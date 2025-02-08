@@ -15,7 +15,9 @@ const Experience = () => {
                 title="Associate Software Developer"
                 company="Konrad Group"
                 date="Mar 2021 - Dec 2021"
-                description=""
+                description="Contributed to the early development of a real estate website and server.
+                    Also, maintained a swimming pool/hot tub water testing software.
+                    "
                 imgUrl={KonradGroup}
                 href="https://www.konrad.com/"
                 // TODO: add description

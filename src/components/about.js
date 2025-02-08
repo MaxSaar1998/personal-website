@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
     return (
-        <section id="about" className=" rounded-lg py-4 px-4
+        <section id="about" className=" rounded-lg pb-4 px-4
             flex flex-col items-start
             mb-8 scroll-mt-24
             ">
