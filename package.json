@@ -2,7 +2,7 @@
   "name": "personal-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://maxsaar1998.github.io/personal-website/",
+  "homepage": "https://maxsaar.com",
   "dependencies": {
     "@headlessui/react": "^2.2.0",
     "cra-template": "1.2.0",
