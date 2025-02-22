@@ -12,16 +12,16 @@ export default function Header() {
             items-center
         ">
             <img src={profilePicture} alt="Max Saar"
-                className="w-32 h-32 rounded-full" />
-            <h1 className="text-5xl font-ssans3bold mt-2 ">Max Saar</h1>
-            <div className="mt-3 text-3xl font-semibold">Web Developer</div>
-            <div className="mt-3 text-lg">maxsaar1998@gmail.com</div>
+                className="w-24 h-24 xs:w-32 xs:h-32 rounded-full" />
+            <h1 className=" text-4xl xs:text-5xl font-ssans3bold mt-1 xs:mt-2 ">Max Saar</h1>
+            <div className="mt-2 xs:mt-3 text-2xl xs:text-3xl font-semibold">Web Developer</div>
+            <div className="mt-2 xs:mt-3 text-base xs:text-lg">maxsaar1998@gmail.com</div>
             <div className="flex flex-row items-center mt-4">
                 <IconLink href="https://github.com/MaxSaar1998">
-                    <FaGithub className="w-8 lg:w-6 h-8 lg:h-6 mx-2"/>
+                    <FaGithub className="w-6 lg:w-6 h-6 lg:h-6 mx-2"/>
                 </IconLink>
                 <IconLink href="https://www.linkedin.com/in/max-saar-5a895734a/">
-                    <FaLinkedin className="w-8 lg:w-6 h-8 lg:h-6 mx-2"/>
+                    <FaLinkedin className="w-6 lg:w-6 h-6 lg:h-6 mx-2"/>
                 </IconLink>
             </div>
 

@@ -4,22 +4,22 @@ const About = () => {
     return (
         <section id="about" className=" rounded-lg pb-4 px-4
             flex flex-col items-start
-            mb-8 scroll-mt-24
+            mb-6 xs:mb-8 scroll-mt-24
             ">
-            <h1 className="font-ssans3bold text-3xl">About</h1>
+            <h1 className="font-ssans3bold text-2xl xs:text-3xl">About</h1>
             {/* TODO: add about paragraph*/}
-            <p className="text-lg text-left mt-2">
+            <p className="text-base xs:text-lg text-left mt-2">
                 Hello, I'm a web developer with a passion for creating user-friendly websites and apps.
                 I love the process of bringing ideas to life with clean code, thoughtful design, and creativity.    
             </p>
-            <p className="text-lg text-left mt-2">
-                I have experience with <b>React</b>, <b>React Native</b>, <b>Node.js</b>, <b>PostgreSQL</b> and many other web technologies. 
+            <p className="text-base xs:text-lg text-left mt-2">
+                I studied computer science at the University of Waterloo and have more than 1.5 years of professional web development experience. Some of the technologies I have used are <b>React</b>, <b>React Native</b>, <b>Node.js</b>, <b>PostgreSQL</b> and many others. 
                 I am always looking to learn new things and improve my skills.   
             </p>
-            <p className="text-lg text-left mt-2">
+            <p className="text-base xs:text-lg text-left mt-2">
                 Currently, I am doing contract web development jobs and working on personal projects.
             </p>
-            <p className="text-lg text-left mt-2">
+            <p className="text-base xs:text-lg text-left mt-2">
                When I'm not working, I enjoy exercising, playing guitar, and hiking.
             </p>
         </section>

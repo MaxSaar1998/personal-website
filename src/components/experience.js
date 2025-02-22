@@ -7,9 +7,9 @@ const Experience = () => {
     return (
         <section id="experience" className="rounded-lg py-4
             flex flex-col items-start
-            mb-8 scroll-mt-24
+            mb-6 xs:mb-8 scroll-mt-24
             ">
-            <h1 className="font-ssans3bold pl-4 text-3xl">Experience</h1>
+            <h1 className="font-ssans3bold pl-4 text-2xl xs:text-3xl">Experience</h1>
             {/* TODO: add experience*/}
             <Job
                 title="Associate Software Developer"
@@ -54,17 +54,17 @@ const Experience = () => {
 
 const Job = ({ title, company, date, description, imgUrl, href }) => {
     return (
-    <a className="flex flex-row items-start mb-4
+    <a className="flex flex-row items-start mb-3 xs:mb-4
         hover:bg-gray-100 hover:shadow-md
-        p-4 w-full
+        p-3 xs:p-4 w-full
         rounded-lg"
         href={href}>
-        <img src={imgUrl} alt={company} className="w-16 h-16" />
+        <img src={imgUrl} alt={company} className="w-12 h-12 xs:w-16 xs:h-16" />
         <div className="ml-4 flex flex-col items-start">
-            <h2 className="font-ssans3bold text-xl">{title}</h2>
-            <h3 className=" text-lg">{company}</h3>
-            <h4 className=" text-md">{date}</h4>
-            <p className="text-left text-md mt-2">{description}</p>
+            <h2 className="font-ssans3bold text-lg xs:text-xl">{title}</h2>
+            <h3 className=" text-base xs:text-lg">{company}</h3>
+            <h4 className=" text-sm xs:text-base">{date}</h4>
+            <p className="text-left text-sm xs:text-base mt-1.5 xs:mt-2">{description}</p>
         </div>
     </a>)
 }

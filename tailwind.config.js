@@ -8,7 +8,11 @@ module.exports = {
         ssans3: ["SourceSans3Regular", "sans-serif"],
         ssans3bold: ["SourceSans3Bold", "sans-serif"],
       },
+      screens: {
+        'xs': '480px'
+      },
     },
+
     /*fontFamily: {
       sans: ['SourceSans3Regular', 'sans-serif'],
     }*/

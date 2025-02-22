@@ -4,11 +4,11 @@ const Projects = () => {
     return (
         <div id="projects" className="py-4 px-4 
             flex flex-col items-start
-            mb-8 scroll-mt-24
+            mb-6 xs:mb-8 scroll-mt-24
             ">
-            <h1 className="font-ssans3bold text-3xl">Projects</h1>
+            <h1 className="font-ssans3bold text-2xl xs:text-3xl">Projects</h1>
             {/* TODO: add projects*/}
-            <p className="text-left mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            <p className="text-left mt-1.5 xs:mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco
                 laboris nisi ut aliquip ex ea commodo consequat.

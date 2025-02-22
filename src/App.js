@@ -9,11 +9,11 @@ import Projects from './components/projects.js';
 function App() {
   return (
       <div className="mx-auto min-h-screen max-w-screen-xl
-        px-6 py-12 md:px-12 md:py-16 lg:py-0">
+        px-4 xs:px-6 py-8 xs:py-12 md:px-12 md:py-16 lg:py-0">
         <div className="App font-ssans3 lg:flex lg:justify-between lg:gap-4">
           <Header />
           {/* Body */}
-          <main id="content" className=" pt-12 lg:pt-24 lg:w-[55%] flex flex-col pb-24">
+          <main id="content" className=" pt-6 xs:pt-12 lg:pt-24 lg:w-[55%] flex flex-col pb-24">
             <About />
             <Experience />
             <Projects />
