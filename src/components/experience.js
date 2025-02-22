@@ -58,7 +58,10 @@ const Job = ({ title, company, date, description, imgUrl, href }) => {
         hover:bg-gray-100 hover:shadow-md
         p-3 xs:p-4 w-full
         rounded-lg"
-        href={href}>
+        href={href}
+        target="_blank"
+        rel="noopener noreferrer"
+        >
         <img src={imgUrl} alt={company} className="w-12 h-12 xs:w-16 xs:h-16" />
         <div className="ml-4 flex flex-col items-start">
             <h2 className="font-ssans3bold text-lg xs:text-xl">{title}</h2>

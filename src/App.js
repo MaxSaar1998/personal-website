@@ -15,8 +15,8 @@ function App() {
           {/* Body */}
           <main id="content" className=" pt-6 xs:pt-12 lg:pt-24 lg:w-[55%] flex flex-col pb-24">
             <About />
-            <Experience />
             <Projects />
+            <Experience />
           </main>
         </div>
       </div>

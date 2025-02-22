@@ -740,6 +740,11 @@ video {
   padding-bottom: 2rem;
 }
 
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
 .pb-24 {
   padding-bottom: 6rem;
 }
@@ -898,6 +903,11 @@ video {
   .xs\:py-12 {
     padding-top: 3rem;
     padding-bottom: 3rem;
+  }
+
+  .xs\:px-4 {
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .xs\:pt-12 {
