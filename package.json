@@ -2,6 +2,7 @@
   "name": "personal-website",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://maxsaar1998.github.io/personal-website/",
   "dependencies": {
     "@headlessui/react": "^2.2.0",
     "cra-template": "1.2.0",
@@ -19,6 +20,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build:css": "npx tailwindcss -i ./src/styles.css -o ./public/output.css --watch"
   },
   "eslintConfig": {
@@ -41,6 +44,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.5.1",
     "postcss-cli": "^11.0.0",
     "tailwindcss": "^3.4.17"
