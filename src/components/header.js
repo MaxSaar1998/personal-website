@@ -31,10 +31,10 @@ export default function Header() {
                         <AnimatedLink href="#about" >About</AnimatedLink>
                     </li>
                     <li className="mb-2">
-                        <AnimatedLink href="#experience" >Experience</AnimatedLink>
+                        <AnimatedLink href="#projects" >Projects</AnimatedLink>
                     </li>
                     <li className="mb-2">
-                        <AnimatedLink href="#projects" >Projects</AnimatedLink>
+                        <AnimatedLink href="#experience" >Experience</AnimatedLink>
                     </li>
                 </ul>
             </nav>
