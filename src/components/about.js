@@ -13,8 +13,7 @@ const About = () => {
                 I love the process of bringing ideas to life with clean code, thoughtful design, and creativity.    
             </p>
             <p className="text-base xs:text-lg text-left mt-2">
-                I studied computer science at the <b>University of Waterloo</b>
-                and have more than <b>1.5 years</b> of professional web development experience.
+                I studied computer science at the <b>University of Waterloo</b> and have more than <b>1.5 years</b> of professional web development experience.
                 Some of the technologies I have used are <b>React</b>, <b>React Native</b>, <b>Node.js</b>, <b>PostgreSQL</b> as well as many others. 
                 I am always looking to learn new things and improve my skills.   
             </p>
