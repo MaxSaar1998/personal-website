@@ -15,7 +15,7 @@ const Projects = () => {
                 title='MinWeather'
                 date='Feb 2025'
                 description='Created a simple weather website which uses various APIs to get location and weather data.
-                    Ensured responsive design on smaller screen sizes
+                    Responsive design for smaller screen sizes. Used React and Tailwind.
                 '
                 href='https://maxsaar1998.github.io/weather-site/'
                 images={[minWeatherScreenshot]}
